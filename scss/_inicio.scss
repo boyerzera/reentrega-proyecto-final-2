@@ -1,0 +1,15 @@
+#email {
+    @include flex-colum-centrado
+}
+
+#name {
+    @include flex-colum-centrado
+}
+
+.container {
+    @include flex-wrap-centrado
+}
+
+.contenido-cards h3 {
+    @include texto-centrado
+}

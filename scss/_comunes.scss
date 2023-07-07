@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Roboto Condensed', sans-serif;
+    background-color: $color-creamson;
+}
+
+.logo-header {
+    display: flex;
+        height: 50px;
+  } 
+
+.nav-link {
+    color: $colornav-header;
+    &:hover {
+        color: $color-bordo;
+    }
+}
+
+.contenido-banner h1{
+    color: $color-creamson;
+    margin-top: $espacio-medio;
+    
+}
+
+.imagencafe {
+    display: flex;
+    width: 40%;
+    height: 10%;
+    }
+  
+
+
+.footer {
+    align-self: flex-end;
+flex-wrap: wrap;
+}
+
+
+

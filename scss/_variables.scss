@@ -1,0 +1,59 @@
+
+/*Paleta de colores*/
+$color-creamson: #fff0de;
+$color-bordo:  #b1454a;
+$color-bordo2: #863E42;
+$colornav-header: #be592a;
+$color-marron: #25120A;
+$border:.1rem solid rgba(255,255,255,.3);
+
+/*fuentes*/
+$fuente-principal: "Reboto", sans-serif;
+
+/*Tamaños de pantalla*/
+$pantalla-m: 768px;
+$pantalla-l: 992px;
+$pantalla-xl: 1200px;
+
+
+/*FUENTES*/
+$fuente-chica: 14px;
+$fuente-media: 45px;
+$espacio-min: 10px;
+
+
+/*Separaciones (margenes y paddings)*/
+$espacio-medio: 50px;
+$espacio-grande: 200px;
+
+
+/*Mixin*/
+@mixin flex-colum-centrado {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-wrap-centrado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+}
+@mixin texto-centrado {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+@mixin flex-colum-centrado2 {
+    position: relative;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+

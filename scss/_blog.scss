@@ -1,0 +1,11 @@
+.blogs {
+    color: $color-marron;
+}
+
+.blogs .box-container {
+display: grid;
+}
+
+.blogs .box-container .box .content .titulo:hover{
+    color: $color-bordo2;
+}

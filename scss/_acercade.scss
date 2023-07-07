@@ -1,0 +1,13 @@
+.acercadecafe {
+    @include texto-centrado;
+}
+    
+
+.main-acercade .sec-acercade div {
+    @include flex-colum-centrado 
+}
+
+.acercadecafe h1{
+    color: $color-bordo2;
+    font-size: $fuente-media;
+}
